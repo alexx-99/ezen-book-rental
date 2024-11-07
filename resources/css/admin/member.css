@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+
+
+.mb-reg-frm, .cf-login-frm {width:350px; margin:0 auto;}
+
+
+
+/*========== register ==========*/
+.mb-reg-frm li {padding:5px 0;}
+.mb-reg-frm li:nth-child(1), .mb-reg-frm li:nth-child(5), .mb-reg-frm li:nth-child(10) {display:flex; justify-content:space-between;}
+.mb-reg-frm li:nth-child(1) .input-frm, .mb-reg-frm li:nth-child(5) .input-frm {width:210px;}
+.mb-reg-frm li:nth-child(10) .input-frm {width:230px;}
+.mb-reg-frm li:nth-child(2) p, .mb-reg-frm li:nth-child(6) p {font-size:13px;}
+.mb-reg-frm li:nth-child(7) {display:flex;}
+.mb-reg-frm li:nth-child(7) input {display:none;}
+.mb-reg-frm li:last-child {display:flex; justify-content:center; padding-top:30px;}
+.mb-reg-frm li:last-child .btn {margin:0 5px;}
+.mb-reg-frm label, .mb-reg-frm a {padding-top:3.5px;}
+.mb-reg-frm input[type="radio"] + label {margin:0 5px;}
+.mb-reg-frm input[type="radio"]:checked + label {color:#f6f6f6; background:#004080; border:1px solid #004080;}
+
+
+
+
+
+/*========== address ==========*/
+.addr-container {width:330px; margin:10px auto;}
+.search-wrap {display:flex; justify-content:space-between;}
+.search-wrap .input-frm {width:150px;}
+.addr-list {height:215px; margin-top:20px; overflow-y:auto;}
+.addr-list a {display:block; padding:5px 0; border-bottom:1px dashed #666;}
+.addr-msg {
+	margin-top:25px; padding:15px;
+	font-size:14px; color:#5E610B; background:#ECF6CE; border:2px dashed #5E610B; border-radius:10px;
+}
+
+
+
+
+
+/*========== login ==========*/
+.tabs {position:relative; width:350px; height:300px; overflow:hidden;}
+
+.tabs input[type="radio"] {display:none;}
+.tabs-btn {
+	position:absolute; top:0; width:175px; height:40px;
+	text-align:center; line-height:38px; background:#d2d2d2; border-radius:10px 10px 0 0;
+}
+.tabs-btn:hover {background:#c6c6c6;}
+.tabs-label-2 {left:50%;}
+
+.tabs-contents {position:relative;}
+.tabs-contents > div {
+	position:absolute; top:40px; width:100%; padding:30px;
+	background:#d8d8d8; transition:all 0.4s ease-in;
+}
+.tabs-ul li {padding:5px 0;}
+.tabs-ul li:last-child {display:flex; justify-content:center; padding-top:30px;}
+.tabs-ul li:last-child .btn {margin:0 5px; padding:0 30px; height:50px; font-size:18px;}
+.tabs-ul li:last-child a {line-height:48px;}
+
+.tabs-content-1 {transform:translateX(-350px);}
+.tabs-content-2 {transform:translateX(350px);}
+#tabs-1:checked ~ .tabs-contents > .tabs-content-1,
+#tabs-2:checked ~ .tabs-contents > .tabs-content-2 {transform:translateX(0px);}
+
+.confirm-msg {
+	width:350px; margin:10px auto; padding:15px;
+	font-size:14px; color:#5E610B; background:#ECF6CE; border:2px dashed #5E610B; border-radius:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
