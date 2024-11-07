@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+
+
+
+.zip-search {display:flex; justify-content:space-between; align-items:center;}
+
+
+.zip-address {height:200px; margin-top:15px; overflow-y:auto;}
+.zip-address li {padding:5px 0; border-bottom:1px dashed #666;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
