@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+
+
+
+* {margin:0; padding:0; box-sizing:border-box;}
+body {font-size:16px; font-weight:400; color:#333; background:#eee;}
+ul li {list-style:none;}
+a {display:block; text-decoration:none;}
+label, button {display:block; cursor:pointer;}
